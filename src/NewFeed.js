@@ -3,7 +3,7 @@ import Post from "./Post";
 
 class NewFeed extends React.Component{
     render(){
-        return <div>
+        return( <div>
             <Post/>
             <Post/>
             <Post/>
@@ -15,7 +15,8 @@ class NewFeed extends React.Component{
 
 
 
-        </div>;
+        </div>
+        )
     }
 
 }

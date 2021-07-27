@@ -1,7 +1,11 @@
 .userphoto{
     background-color: blue;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     height: 50px;
     width: 50px;
+
+}
+#logoimg{
+    height: 15px;
 
 }

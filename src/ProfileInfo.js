@@ -4,7 +4,7 @@ import "./css/profileinfo.css"
 
 class ProfileInfo extends React.Component{
     render(){
-        return <div>
+        return (<div>
             <div id="user">
                 <UserPhoto/>
                 <span className="username">Name</span>
@@ -12,6 +12,7 @@ class ProfileInfo extends React.Component{
 
 
         </div>
+        )
     }
 }
 export default ProfileInfo;
